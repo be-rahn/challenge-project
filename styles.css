@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #3ec09a;
+  --branding-color: #bb2356;
   --secondary-color: #f8f9fa;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Black Ops One", cursive;
+  --default-font-family: "Oswald", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
