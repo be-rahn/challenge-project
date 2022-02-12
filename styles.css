@@ -1,0 +1,253 @@
+:root {
+  --branding-color: #3ec09a;
+  --secondary-color: #f8f9fa;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff (green-gray)#bfcba8 (green)#5b8a72 (nice cream)#ddffbc (gray font)#464f41*****/
+body {
+  background: #f8f9fa;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+
+.nav-link {
+  font-family: var(--default-font-family);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2,
+p {
+  font-family: var(--default-font-family);
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+img {
+  box-shadow: var(--box-shadow);
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.framing {
+  max-width: 400px;
+  max-height: 300px;
+  padding-top: 26px;
+}
+
+.hero {
+  background-image: url("images/raf-red-arrows-display-team.jpg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  text-align: center;
+  padding: 110px 20px 90px 20px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+#cta {
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  line-height: 42px;
+}
+
+.about-section {
+  padding: 110px 20px;
+}
+
+.about-section h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-content {
+  margin: 30px;
+}
+
+.about-content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0;
+  font-family: var(--default-font-family);
+}
+
+#arrow {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 5px 14px;
+  font-size: 32px;
+}
+
+#profilecontainer {
+  padding-top: 45px;
+}
+
+#profilepic {
+  max-width: 400px;
+  margin: auto;
+}
+
+.work-title {
+  padding: 0 25px 25px 25px;
+  margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: #f8f9fa;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.project-description p,
+h2 {
+  max-width: 100%;
+  display: block;
+}
+.project-description h2 {
+  font-family: var(--heading-font-family);
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 32px;
+  transition: all 120ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: black;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+@media (max-width: 980px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-section {
+    padding: 0;
+    text-align: center;
+  }
+  .btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 20px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  footer .contact-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 20px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .about-content h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 700px) {
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+}
