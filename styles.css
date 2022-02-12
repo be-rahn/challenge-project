@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #bb2356;
+  --branding-color: #3ec09a;
   --secondary-color: #f8f9fa;
-  --heading-font-family: "Black Ops One", cursive;
-  --default-font-family: "Oswald", sans-serif;
+  --heading-font-family: "Domine", serif;
+  --default-font-family: "Work Sans", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -25,8 +25,12 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 96px;
+  font-size: 56px;
   line-height: 1.5;
+}
+
+span {
+  font-weight: bold;
 }
 
 h2,
@@ -61,12 +65,20 @@ img {
   padding-top: 26px;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
 .hero {
-  background-image: url("images/raf-red-arrows-display-team.jpg");
-  height: 500px; /* You must set a specified height */
+  background-color: #3ec09a;
+  height: 1200px; /* You must set a specified height */
+  width: 800px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .hero p {
@@ -84,9 +96,15 @@ img {
 }
 
 #cta {
+  margin-top: 40px;
   font-family: var(--heading-font-family);
-  font-size: 26px;
+  font-size: 22px;
   line-height: 42px;
+}
+
+.card-img-top {
+  max-width: 90px;
+  justify-content: center;
 }
 
 .about-section {
@@ -139,14 +157,16 @@ img {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   border-radius: 4px;
-  color: #f8f9fa;
+  color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   box-shadow: var(--box-shadow);
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .btn-branding-outline {
