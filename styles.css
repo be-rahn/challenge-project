@@ -245,6 +245,10 @@ img {
   color:#e6dd3b
 }
 
+.btn-brand {
+  color:#e6dd3b !important
+}
+
 .project-description p,
 h2 {
   max-width: 100%;
