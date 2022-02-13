@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #3ec09a;
+  --branding-color: #e6dd3b;
   --secondary-color: #f8f9fa;
   --heading-font-family: "Domine", serif;
   --default-font-family: "Work Sans", sans-serif;
@@ -21,6 +21,15 @@ body {
 
 .navbar-nav {
   margin-left: auto;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.4s ease-in-out left;
+  -moz-transition: 0.4s ease-in-out left;
+  -o-transition: 0.4s ease-in-out left;
+  transition: 0.4s ease-in-out left;
 }
 
 h1 {
@@ -74,7 +83,7 @@ img {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
-  
+
   height: 100vh;
 }
 
@@ -83,7 +92,7 @@ img {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
-  
+
   backdrop-filter: blur(8px);
   height: 100vh;
 }
@@ -103,7 +112,7 @@ img {
 
 .hero {
   background-color: 3ec09a;
-  background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  background: linear-gradient(-20deg, #0000 0%, #101920 100%);
   height: 490px; /* You must set a specified height */
   width: 800px;
   background-position: center; /* Center the image */
@@ -137,6 +146,27 @@ img {
 .card-img-top {
   max-width: 90px;
   justify-content: center;
+}
+
+.our-services {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0;
+  font-family: var(--default-font-family);
+}
+
+.service-section {
+  padding: 60px 20px;
+}
+
+.service-section h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.service-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 
 .about-section {
@@ -189,9 +219,9 @@ img {
 }
 
 .btn-branding {
-  background: #a877ba;
+  background: #e6dd3b;
   border-radius: 4px;
-  color: black;
+  color: #151515;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -209,6 +239,10 @@ img {
   line-height: 27px;
   padding: 15px 30px;
   box-shadow: var(--box-shadow);
+}
+
+.btn-primary {
+  color:#e6dd3b
 }
 
 .project-description p,
@@ -255,6 +289,20 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 980px) {
