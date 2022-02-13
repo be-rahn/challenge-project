@@ -219,7 +219,11 @@ img {
 }
 
 .btn-branding {
-  background: #e6dd3b;
+  background: linear-gradient(
+    90deg,
+    rgb(244, 213, 4) 0%,
+    rgb(41, 187, 137) 100%
+  );
   border-radius: 4px;
   color: #151515;
   font-size: 18px;
@@ -232,8 +236,12 @@ img {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  background: linear-gradient(
+    90deg,
+    rgb(244, 213, 4) 100%,
+    rgb(41, 187, 137) 0%
+  );
+  border: 1px solid #289672;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -242,11 +250,11 @@ img {
 }
 
 .btn-primary {
-  color:#e6dd3b
+  color: #e6dd3b;
 }
 
 .btn-brand {
-  color:#e6dd3b !important
+  color: #e6dd3b !important;
 }
 
 .project-description p,
