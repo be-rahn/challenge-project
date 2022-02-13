@@ -69,6 +69,20 @@ img {
   padding-top: 26px;
 }
 
+.hero-unit {
+  background: url("images/creative-agency-widescreen.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero-secondary {
+  background: url("images/programmer-working-widescreen.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .hero-container {
   display: flex;
   justify-content: center;
