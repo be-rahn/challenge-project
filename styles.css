@@ -6,7 +6,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff (green-gray)#bfcba8 (green)#5b8a72 (nice cream)#ddffbc (gray font)#464f41*****/
 body {
   background: #f8f9fa;
 }
@@ -271,57 +270,6 @@ h2 {
 .slide-size img {
   max-height: 300px;
   max-width: 400px; /* input your desired height here */
-}
-
-footer {
-  margin: 40px 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 10px 14px;
-  font-size: 32px;
-  transition: all 120ms ease-in-out;
-}
-
-footer .social-links a:hover {
-  color: black;
-}
-
-footer .contact-box {
-  background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
 }
 
 @media (max-width: 980px) {
