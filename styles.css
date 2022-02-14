@@ -262,10 +262,13 @@ img {
   color: #e6dd3b;
 }
 
+.px-4 {
+  padding: none !important;
+}
+
 .company-brands {
   max-height: 180px;
   max-width: 100%;
-  background-color: #e6dd3b;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
   text-align: center;
@@ -308,14 +311,7 @@ h2 {
     line-height: 15px;
     padding: 10px 20px;
   }
-  footer .contact-box {
-    padding: 30px;
-  }
-  footer .contact-btn {
-    font-size: 12px;
-    line-height: 15px;
-    padding: 10px 20px;
-  }
+ 
   h4 {
     font-size: 26px;
   }
@@ -335,5 +331,9 @@ h2 {
 
   h1 {
     font-size: 42px;
+  }
+
+  .px-4 {
+    justify-content: center;
   }
 }
