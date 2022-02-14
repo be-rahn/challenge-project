@@ -34,7 +34,7 @@ body {
 h1 {
   font-family: var(--heading-font-family);
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 58px !important;
 }
 
 span {
@@ -256,6 +256,20 @@ img {
 .btn-brand {
   background-color: #151515;
   color: #e6dd3b;
+}
+
+.company-brands {
+  max-height: 180px;
+  max-width: 90%;
+  background-color: #e6dd3b;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+i {
+  margin-left: 36px;
+  margin-right: 36px;
 }
 
 .project-description p,
