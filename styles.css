@@ -311,7 +311,7 @@ h2 {
     line-height: 15px;
     padding: 10px 20px;
   }
- 
+
   h4 {
     font-size: 26px;
   }
@@ -333,7 +333,7 @@ h2 {
     font-size: 42px;
   }
 
-  .px-4 {
-    justify-content: center;
+  .md {
+    display: block;
   }
 }
