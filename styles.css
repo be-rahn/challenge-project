@@ -260,11 +260,14 @@ img {
 
 .company-brands {
   max-height: 180px;
-  max-width: 90%;
+  max-width: 100%;
   background-color: #e6dd3b;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
   text-align: center;
   margin: auto;
   border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 
 i {
