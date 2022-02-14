@@ -253,19 +253,6 @@ img {
   border: 1px solid var(--primary-color);
 }
 
-.btn-primary {
-  color: #e6dd3b;
-}
-
-.btn-brand {
-  background-color: #151515;
-  color: #e6dd3b;
-}
-
-.px-4 {
-  padding: none !important;
-}
-
 .company-brands {
   max-height: 180px;
   max-width: 100%;
@@ -319,6 +306,13 @@ h2 {
     font-size: 38px;
   }
 }
+@media (max-width: 768px) {
+  .btn,
+  .btn-group {
+    width: 25%;
+    margin: auto;
+  }
+}
 @media (max-width: 700px) {
   h2,
   h3 {
@@ -331,9 +325,5 @@ h2 {
 
   h1 {
     font-size: 42px;
-  }
-
-  .md {
-    display: block;
   }
 }
