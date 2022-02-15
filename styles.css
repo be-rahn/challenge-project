@@ -22,7 +22,6 @@ body {
   margin-left: auto;
 }
 
-
 .carousel-inner > .item {
   position: relative;
   display: none;
@@ -142,7 +141,7 @@ img {
 }
 
 #cta {
-  margin-top: 40px;
+  margin-top: 65px;
   font-family: var(--heading-font-family);
   font-size: 32px;
   line-height: 42px;
@@ -190,6 +189,10 @@ img {
 
 .about-content {
   margin: 30px;
+}
+
+#about {
+  margin-top: 30px;
 }
 
 .about-content h3 {
@@ -261,6 +264,7 @@ img {
   backdrop-filter: blur(8px);
   text-align: center;
   margin: auto;
+  margin-top: 40px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
@@ -272,6 +276,7 @@ i {
 
 .col-xxl-8 {
   width: 80%;
+  margin-top: 30px;
 }
 
 .project-description p,
