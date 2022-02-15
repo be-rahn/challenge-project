@@ -269,6 +269,10 @@ i {
   margin-right: 36px;
 }
 
+.col-xxl-8 {
+  width: 80%;
+}
+
 .project-description p,
 h2 {
   max-width: 100%;
