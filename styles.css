@@ -282,6 +282,12 @@ i {
     width: 35%;
     margin: auto;
   }
+
+  #profile-pic {
+    margin: auto;
+    width: 90%;
+  }
+  /*
   #overlap {
     position: absolute;
     z-index: 2;
@@ -298,6 +304,7 @@ i {
     position: relative;
     top: -400px;
   }
+  */
 }
 
 @media (max-width: 700px) {
