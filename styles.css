@@ -331,7 +331,7 @@ h2 {
   }
   #move-button {
     position: relative;
-    top: -500px;
+    top: -400px;
   }
 }
 @media (max-width: 700px) {
