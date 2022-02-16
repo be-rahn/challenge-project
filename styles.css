@@ -20,6 +20,7 @@ body {
 
 .navbar-nav {
   margin-left: auto;
+  margin-right: 10px;
   max-width: 60px;
 }
 
@@ -34,16 +35,13 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 56px;
-  line-height: 58px !important;
+  font-size: 48px;
+  line-height: 48px !important;
+  font-weight: 700;
 }
 
 span {
   font-weight: bold;
-}
-
-.topgun {
-  font-style: italic;
 }
 
 h2,
@@ -180,7 +178,7 @@ img {
 
 .about-section h1 {
   font-size: 60px;
-  line-height: 80px;
+  line-height: 80px !important;
 }
 
 .about-section h2 {
@@ -217,6 +215,9 @@ img {
 #profilepic {
   max-width: 600px;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .work-title {
@@ -235,9 +236,9 @@ img {
   );
   border-radius: 33px;
   color: #151515;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 14px 30px;
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
   margin-left: 20px;
@@ -251,9 +252,9 @@ img {
     rgb(41, 187, 137) 100%
   );
   border-radius: 33px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 14px 30px;
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
 }
@@ -266,18 +267,16 @@ img {
   text-align: center;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 70px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
 
+
+
 i {
   margin-left: 36px;
   margin-right: 36px;
-}
-
-.col-xxl-8 {
-  width: 80%;
-  margin-top: 30px;
 }
 
 .project-description p,
@@ -323,11 +322,6 @@ h2 {
     width: 35%;
     margin: auto;
   }
-
-  .col-xxl-8 {
-    padding: none !important;
-    margin: none !important;
-  }
 }
 @media (max-width: 700px) {
   h2,
@@ -341,5 +335,12 @@ h2 {
 
   h1 {
     font-size: 38px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .row-reverse {
+    flex-direction: row-reverse !important;
   }
 }
