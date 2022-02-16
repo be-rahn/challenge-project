@@ -47,6 +47,7 @@ span {
 h2,
 p {
   font-family: var(--default-font-family);
+  font-weight: 500;
 }
 
 h2 {
@@ -91,7 +92,6 @@ img {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
-
   backdrop-filter: blur(8px);
   height: 100vh;
 }
@@ -114,12 +114,11 @@ img {
 }
 
 .hero {
-  background-color: #e6dd3b;
-
-  height: 490px; /* You must set a specified height */
+  background-color: var(--branding-color);
+  height: 490px;
   width: 1200px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   text-align: center;
@@ -139,7 +138,7 @@ img {
   line-height: 2;
 }
 
-#cta {
+#header-intro {
   margin-top: 65px;
   font-family: var(--heading-font-family);
   font-size: 32px;
@@ -149,27 +148,6 @@ img {
 .card-img-top {
   max-width: 90px;
   justify-content: center;
-}
-
-.our-services {
-  font-size: 24px;
-  line-height: 1.5;
-  margin: 20px 0;
-  font-family: var(--default-font-family);
-}
-
-.service-section {
-  padding: 60px 20px;
-}
-
-.service-section h1 {
-  font-size: 60px;
-  line-height: 80px;
-}
-
-.service-section h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
 }
 
 .about-section {
@@ -266,13 +244,9 @@ img {
   backdrop-filter: blur(8px);
   text-align: center;
   margin: 40px, 30px, 70px, 30px;
-  margin-top: 40px;
-  margin-bottom: 70px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
-
-
 
 i {
   margin-left: 36px;
@@ -290,7 +264,7 @@ h2 {
 
 .slide-size img {
   max-height: 300px;
-  max-width: 400px; /* input your desired height here */
+  max-width: 400px;
 }
 
 @media (max-width: 980px) {
@@ -339,8 +313,5 @@ h2 {
 
   .hidden {
     display: none;
-  }
-  .row-reverse {
-    flex-direction: row-reverse !important;
   }
 }
