@@ -319,6 +319,20 @@ h2 {
     width: 35%;
     margin: auto;
   }
+  #overlap {
+    position: absolute;
+    margin: auto;
+    text-align: right;
+  }
+  #overlap-1 {
+    position: absolute;
+    margin: auto;
+    text-align: right;
+  }
+  #move-button {
+    position: relative;
+    top: -500px;
+  }
 }
 @media (max-width: 700px) {
   h2,
