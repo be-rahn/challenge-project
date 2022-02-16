@@ -151,7 +151,7 @@ img {
 }
 
 .about-section {
-  padding: 60px 20px;
+  padding: 60px 20px 0px 20px;
 }
 
 .about-section h1 {
@@ -243,9 +243,32 @@ img {
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
   text-align: center;
-  margin: 40px, 30px, 70px, 30px;
+  margin: 30px, 30px, 70px, 30px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+}
+
+.element {
+  height: 420px;
+  width: 420px;
+  border-radius: 50%;
+  background-color: #e6dd3b;
+}
+
+#overlap-1 {
+  position: relative;
+  top: -186px;
+  right: -90px;
+}
+
+#overlap {
+  position: relative;
+  top: -150px;
+}
+
+#move-button {
+  position: relative;
+  top: -146px;
 }
 
 i {
