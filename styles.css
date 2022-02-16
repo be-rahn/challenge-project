@@ -188,6 +188,7 @@ img {
 #overlap {
   position: relative;
   top: -150px;
+  text-align: justify;
 }
 
 #move-button {
