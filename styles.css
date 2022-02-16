@@ -1,3 +1,4 @@
+/* Branding Settings */
 :root {
   --branding-color: #e6dd3b;
   --secondary-color: #f8f9fa;
@@ -10,27 +11,35 @@ body {
   background: #f8f9fa;
 }
 
-.navbar-brand {
-  font-family: var(--heading-font-family);
+.btn-branding {
+  background: linear-gradient(
+    90deg,
+    rgb(244, 213, 4) 0%,
+    rgb(41, 187, 137) 100%
+  );
+  border-radius: 33px;
+  color: #151515;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 14px 30px;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.nav-link {
-  font-family: var(--default-font-family);
-}
-
-.navbar-nav {
-  margin-left: auto;
-  margin-right: 10px;
-  max-width: 60px;
-}
-
-.carousel-inner > .item {
-  position: relative;
-  display: none;
-  -webkit-transition: 0.4s ease-in-out left;
-  -moz-transition: 0.4s ease-in-out left;
-  -o-transition: 0.4s ease-in-out left;
-  transition: 0.4s ease-in-out left;
+.btn-branding-outline {
+  background: linear-gradient(
+    290deg,
+    rgb(244, 213, 4) 0%,
+    rgb(41, 187, 137) 100%
+  );
+  border-radius: 33px;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 14px 30px;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
 }
 
 h1 {
@@ -72,18 +81,28 @@ img {
   display: block;
 }
 
-.framing {
-  max-width: 400px;
-  max-height: 300px;
-  padding-top: 26px;
+/*Navigation bar*/
+.navbar-brand {
+  font-family: var(--heading-font-family);
 }
+
+.nav-link {
+  font-family: var(--default-font-family);
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 10px;
+  max-width: 60px;
+}
+
+/*Hero Slider and Settings*/
 
 .hero-unit {
   background: url("images/creative-agency-widescreen.jpg");
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
-
   height: 100vh;
 }
 
@@ -92,7 +111,6 @@ img {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
-  backdrop-filter: blur(8px);
   height: 100vh;
 }
 
@@ -108,36 +126,7 @@ img {
   margin-top: 40px;
 }
 
-.hero-container {
-  display: flex;
-  justify-content: center;
-}
-
-.hero {
-  background-color: var(--branding-color);
-  height: 490px;
-  width: 1200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.hero p {
-  font-family: var(--default-font-family);
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 2;
-}
-
+/*Header Intro*/
 #header-intro {
   margin-top: 65px;
   font-family: var(--heading-font-family);
@@ -145,11 +134,15 @@ img {
   line-height: 42px;
 }
 
-.card-img-top {
-  max-width: 90px;
-  justify-content: center;
+/*Directional Arrow*/
+#arrow {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 5px 14px;
+  font-size: 32px;
 }
 
+/*Get Hired and Hire Talent CTA*/
 .about-section {
   padding: 60px 20px 0px 20px;
 }
@@ -179,75 +172,6 @@ img {
   font-family: var(--default-font-family);
 }
 
-#arrow {
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 5px 14px;
-  font-size: 32px;
-}
-
-#profilecontainer {
-  padding-top: 45px;
-}
-
-#profilepic {
-  max-width: 600px;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.work-title {
-  padding: 0 25px 25px 25px;
-  margin-bottom: 40px;
-  font-size: 64px;
-  line-height: 80px;
-  text-align: center;
-}
-
-.btn-branding {
-  background: linear-gradient(
-    90deg,
-    rgb(244, 213, 4) 0%,
-    rgb(41, 187, 137) 100%
-  );
-  border-radius: 33px;
-  color: #151515;
-  font-size: 20px;
-  line-height: 27px;
-  padding: 14px 30px;
-  box-shadow: var(--box-shadow);
-  border: 1px solid var(--primary-color);
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.btn-branding-outline {
-  background: linear-gradient(
-    290deg,
-    rgb(244, 213, 4) 0%,
-    rgb(41, 187, 137) 100%
-  );
-  border-radius: 33px;
-  font-size: 20px;
-  line-height: 27px;
-  padding: 14px 30px;
-  box-shadow: var(--box-shadow);
-  border: 1px solid var(--primary-color);
-}
-
-.company-brands {
-  max-height: 180px;
-  max-width: 100%;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(8px);
-  text-align: center;
-  margin: 30px, 30px, 70px, 30px;
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-}
-
 .element {
   height: 420px;
   width: 420px;
@@ -271,18 +195,49 @@ img {
   top: -146px;
 }
 
-i {
-  margin-left: 36px;
-  margin-right: 36px;
+/*Company Brands Bar*/
+.company-brands {
+  max-height: 180px;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  margin: 30px, 30px, 70px, 30px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 
-.project-description p,
-h2 {
-  max-width: 100%;
-  display: block;
+/*Join Us Staff Carousel*/
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.4s ease-in-out left;
+  -moz-transition: 0.4s ease-in-out left;
+  -o-transition: 0.4s ease-in-out left;
+  transition: 0.4s ease-in-out left;
 }
-.project-description h2 {
-  font-family: var(--heading-font-family);
+
+.framing {
+  max-width: 400px;
+  max-height: 300px;
+  padding-top: 26px;
+}
+
+.card-img-top {
+  max-width: 90px;
+  justify-content: center;
+}
+
+#profilecontainer {
+  padding-top: 45px;
+}
+
+#profilepic {
+  max-width: 600px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .slide-size img {
@@ -290,6 +245,12 @@ h2 {
   max-width: 400px;
 }
 
+i {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+/* Responsive Settings */
 @media (max-width: 980px) {
   .project-description {
     padding: 0;
@@ -313,6 +274,7 @@ h2 {
     font-size: 38px;
   }
 }
+
 @media (max-width: 768px) {
   .btn,
   .btn-group {
@@ -336,6 +298,7 @@ h2 {
     top: -400px;
   }
 }
+
 @media (max-width: 700px) {
   h2,
   h3 {
